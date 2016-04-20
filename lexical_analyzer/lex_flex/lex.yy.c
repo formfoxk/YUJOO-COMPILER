@@ -511,8 +511,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "lexical_analyzer.l"
-#line 2 "lexical_analyzer.l"
+#line 1 "scanner.l"
+#line 2 "scanner.l"
 	#include <stdio.h>
 	#include <stdlib.h>
 	enum tsymbol {	tnull = -1,
@@ -714,7 +714,7 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
     
-#line 23 "lexical_analyzer.l"
+#line 23 "scanner.l"
 
 #line 720 "lex.yy.c"
 
@@ -801,234 +801,234 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 24 "lexical_analyzer.l"
+#line 24 "scanner.l"
 return(tconst);
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 25 "lexical_analyzer.l"
+#line 25 "scanner.l"
 return(telse);
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 26 "lexical_analyzer.l"
+#line 26 "scanner.l"
 return(tif);
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 27 "lexical_analyzer.l"
+#line 27 "scanner.l"
 return(tint);
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 28 "lexical_analyzer.l"
+#line 28 "scanner.l"
 return(treturn);
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 29 "lexical_analyzer.l"
+#line 29 "scanner.l"
 return(tvoid);
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 30 "lexical_analyzer.l"
+#line 30 "scanner.l"
 return(twhile);
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 32 "lexical_analyzer.l"
+#line 32 "scanner.l"
 return(tnot);
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 33 "lexical_analyzer.l"
+#line 33 "scanner.l"
 return(tand);
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 34 "lexical_analyzer.l"
+#line 34 "scanner.l"
 return(tor);
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 35 "lexical_analyzer.l"
+#line 35 "scanner.l"
 return(tmul);
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 36 "lexical_analyzer.l"
+#line 36 "scanner.l"
 return(tmod);
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 37 "lexical_analyzer.l"
+#line 37 "scanner.l"
 return(tdiv);
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 38 "lexical_analyzer.l"
+#line 38 "scanner.l"
 return(tplus);
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 39 "lexical_analyzer.l"
+#line 39 "scanner.l"
 return(tminus);
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 41 "lexical_analyzer.l"
+#line 41 "scanner.l"
 return(tcomma);
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 42 "lexical_analyzer.l"
+#line 42 "scanner.l"
 return(tsemicolon);
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 44 "lexical_analyzer.l"
+#line 44 "scanner.l"
 return(tassign);
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 45 "lexical_analyzer.l"
+#line 45 "scanner.l"
 return(tless);
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 46 "lexical_analyzer.l"
+#line 46 "scanner.l"
 return(tgreat);
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 48 "lexical_analyzer.l"
+#line 48 "scanner.l"
 return(tequal);
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 49 "lexical_analyzer.l"
+#line 49 "scanner.l"
 return(tnotequ);
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 50 "lexical_analyzer.l"
+#line 50 "scanner.l"
 return(tlesse);
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 51 "lexical_analyzer.l"
+#line 51 "scanner.l"
 return(tgreate);
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 52 "lexical_analyzer.l"
+#line 52 "scanner.l"
 return(tand);
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 53 "lexical_analyzer.l"
+#line 53 "scanner.l"
 return(tor);
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 54 "lexical_analyzer.l"
+#line 54 "scanner.l"
 return(tinc);
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 55 "lexical_analyzer.l"
+#line 55 "scanner.l"
 return(tdec);
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 56 "lexical_analyzer.l"
+#line 56 "scanner.l"
 return(taddAssign);
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 57 "lexical_analyzer.l"
+#line 57 "scanner.l"
 return(tsubAssign);
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 58 "lexical_analyzer.l"
+#line 58 "scanner.l"
 return(tmulAssign);
 	YY_BREAK
 case 32:
 YY_RULE_SETUP
-#line 59 "lexical_analyzer.l"
+#line 59 "scanner.l"
 return(tdivAssign);
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 60 "lexical_analyzer.l"
+#line 60 "scanner.l"
 return(tmodAssign);
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 62 "lexical_analyzer.l"
+#line 62 "scanner.l"
 return(tlparen);
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 63 "lexical_analyzer.l"
+#line 63 "scanner.l"
 return(trparen);
 	YY_BREAK
 case 36:
 YY_RULE_SETUP
-#line 64 "lexical_analyzer.l"
+#line 64 "scanner.l"
 return(tlbracket);
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 65 "lexical_analyzer.l"
+#line 65 "scanner.l"
 return(trbracket);
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 66 "lexical_analyzer.l"
+#line 66 "scanner.l"
 return(tlbrace);
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 67 "lexical_analyzer.l"
+#line 67 "scanner.l"
 return(trbrace);
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 69 "lexical_analyzer.l"
+#line 69 "scanner.l"
 return(tident);
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 70 "lexical_analyzer.l"
+#line 70 "scanner.l"
 return(tnumber);
 	YY_BREAK
 case 42:
 /* rule 42 can match eol */
 YY_RULE_SETUP
-#line 71 "lexical_analyzer.l"
+#line 71 "scanner.l"
 ;
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 72 "lexical_analyzer.l"
+#line 72 "scanner.l"
 ;
 	YY_BREAK
 case 44:
 /* rule 44 can match eol */
 YY_RULE_SETUP
-#line 73 "lexical_analyzer.l"
+#line 73 "scanner.l"
 ;
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 74 "lexical_analyzer.l"
+#line 74 "scanner.l"
 
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 75 "lexical_analyzer.l"
+#line 75 "scanner.l"
 ECHO;
 	YY_BREAK
 #line 1035 "lex.yy.c"
@@ -2028,7 +2028,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 75 "lexical_analyzer.l"
+#line 75 "scanner.l"
 
 
 
@@ -2043,7 +2043,7 @@ int main(){
 	enum tsymbol tn;
 	while ((tn = yylex())) {
 		printf("%s\t%d\t", yytext, tn);
-		if (tn == tident) 
+		if (tn == tident || tn == tnumber) 
 			printf("%s\n", yytext);
 		else 
 			printf("%d\n", 0);

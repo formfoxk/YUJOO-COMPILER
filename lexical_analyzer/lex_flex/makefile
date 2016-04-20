@@ -1,3 +1,9 @@
-all:
-	flex lexical_analyzer.l
-	gcc -I. -o la -ll lex.yy.c
+all:	build
+
+build:
+	flex scanner.l
+	gcc -I. lex.yy.c -o scanner -ll
+
+clean:
+	rm -f lex.yy.c
+	rm -f scanner

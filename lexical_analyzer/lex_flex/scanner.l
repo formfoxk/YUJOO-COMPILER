@@ -85,7 +85,7 @@ int main(){
 	enum tsymbol tn;
 	while ((tn = yylex())) {
 		printf("%s\t%d\t", yytext, tn);
-		if (tn == tident) 
+		if (tn == tident || tn == tnumber) 
 			printf("%s\n", yytext);
 		else 
 			printf("%d\n", 0);
